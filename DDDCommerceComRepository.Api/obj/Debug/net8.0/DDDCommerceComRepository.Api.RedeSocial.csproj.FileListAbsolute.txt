@@ -176,6 +176,6 @@ C:\Users\Aula\Source\Repos\RedeSocialUniversitaria\DDDCommerceComRepository.Api\
 C:\Users\Aula\Source\Repos\RedeSocialUniversitaria\DDDCommerceComRepository.Api\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.DDDCommerceComRepository.Api.RedeSocial.props
 C:\Users\Aula\Source\Repos\RedeSocialUniversitaria\DDDCommerceComRepository.Api\obj\Debug\net8.0\staticwebassets.pack.json
 C:\Users\Aula\Source\Repos\RedeSocialUniversitaria\DDDCommerceComRepository.Api\obj\Debug\net8.0\scopedcss\bundle\DDDCommerceComRepository.Api.RedeSocial.styles.css
-C:\Users\Aula\Source\Repos\RedeSocialUniversitaria\DDDCommerceComRepository.Api\obj\Debug\net8.0\DDDComme.EB180427.Up2Date
 C:\Users\Aula\Source\Repos\RedeSocialUniversitaria\DDDCommerceComRepository.Api\obj\Debug\net8.0\DDDCommerceComRepository.Api.RedeSocial.genruntimeconfig.cache
 C:\Users\Aula\Source\Repos\RedeSocialUniversitaria\DDDCommerceComRepository.Api\obj\Debug\net8.0\ref\DDDCommerceComRepository.Api.RedeSocial.dll
+C:\Users\Aula\Source\Repos\RedeSocialUniversitaria\DDDCommerceComRepository.Api\obj\Debug\net8.0\DDDCommerceComRepository.Api.RedeSocial.csproj.CopyComplete

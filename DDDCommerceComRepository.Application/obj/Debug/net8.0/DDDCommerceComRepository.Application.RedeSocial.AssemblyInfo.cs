@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DDDCommerceComRepository.Application.RedeSocial")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d938cb73c586f8f767eee869273e88c2bbedd78c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+444ef6ad0dc25080430e59938fade8576ae8f29e")]
 [assembly: System.Reflection.AssemblyProductAttribute("DDDCommerceComRepository.Application.RedeSocial")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DDDCommerceComRepository.Application.RedeSocial")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

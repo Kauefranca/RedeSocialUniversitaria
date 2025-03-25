@@ -1,4 +1,4 @@
-﻿using DDDCommerceComRepository.Domain;
+﻿using DDDCommerceComRepository.Domain.RedeSocial.Entidades;
 using DDDCommerceComRepository.Infra.RedeSocial.Interfaces;
 using Microsoft.EntityFrameworkCore;
 using System;

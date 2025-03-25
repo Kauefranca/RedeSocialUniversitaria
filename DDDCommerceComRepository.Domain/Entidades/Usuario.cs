@@ -1,4 +1,4 @@
-﻿namespace DDDCommerceComRepository.Domain
+﻿namespace DDDCommerceComRepository.Domain.RedeSocial.Entidades
 {
     public class Usuario
     {

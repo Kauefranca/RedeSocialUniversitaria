@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DDDCommerceComRepository.Domain.RedeSocial
+namespace DDDCommerceComRepository.Domain.RedeSocial.Entidades
 {
     public class Postagem
     {

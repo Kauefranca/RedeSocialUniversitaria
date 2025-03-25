@@ -1,4 +1,4 @@
-﻿using DDDCommerceComRepository.Domain;
+﻿using DDDCommerceComRepository.Domain.RedeSocial.Entidades;
 using System;
 using System.Collections.Generic;
 using System.Linq;
