@@ -20,6 +20,6 @@ namespace DDDCommerceComRepository.Infra
 
         }
 
-        public DbSet<Pedido> Pedidos { get; set; }
+        public DbSet<Usuario> Usuarios { get; set; }
     }
 }

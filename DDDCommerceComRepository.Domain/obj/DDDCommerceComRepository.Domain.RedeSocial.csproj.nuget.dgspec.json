@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Aula\\source\\repos\\DDDCommerceComRepository\\DDDCommerceComRepository.Domain\\DDDCommerceComRepository.Domain.RedeSocial.csproj": {}
+    "C:\\Users\\Aula\\Source\\Repos\\RedeSocialUniversitaria\\DDDCommerceComRepository.Domain\\DDDCommerceComRepository.Domain.RedeSocial.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Aula\\source\\repos\\DDDCommerceComRepository\\DDDCommerceComRepository.Domain\\DDDCommerceComRepository.Domain.RedeSocial.csproj": {
+    "C:\\Users\\Aula\\Source\\Repos\\RedeSocialUniversitaria\\DDDCommerceComRepository.Domain\\DDDCommerceComRepository.Domain.RedeSocial.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Aula\\source\\repos\\DDDCommerceComRepository\\DDDCommerceComRepository.Domain\\DDDCommerceComRepository.Domain.RedeSocial.csproj",
+        "projectUniqueName": "C:\\Users\\Aula\\Source\\Repos\\RedeSocialUniversitaria\\DDDCommerceComRepository.Domain\\DDDCommerceComRepository.Domain.RedeSocial.csproj",
         "projectName": "DDDCommerceComRepository.Domain.RedeSocial",
-        "projectPath": "C:\\Users\\Aula\\source\\repos\\DDDCommerceComRepository\\DDDCommerceComRepository.Domain\\DDDCommerceComRepository.Domain.RedeSocial.csproj",
+        "projectPath": "C:\\Users\\Aula\\Source\\Repos\\RedeSocialUniversitaria\\DDDCommerceComRepository.Domain\\DDDCommerceComRepository.Domain.RedeSocial.csproj",
         "packagesPath": "C:\\Users\\Aula\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Aula\\source\\repos\\DDDCommerceComRepository\\DDDCommerceComRepository.Domain\\obj\\",
+        "outputPath": "C:\\Users\\Aula\\Source\\Repos\\RedeSocialUniversitaria\\DDDCommerceComRepository.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Aula\\AppData\\Roaming\\NuGet\\NuGet.Config",
