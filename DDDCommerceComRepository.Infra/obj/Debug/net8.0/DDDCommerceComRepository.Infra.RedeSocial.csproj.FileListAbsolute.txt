@@ -1,0 +1,17 @@
+C:\Users\Aula\source\repos\DDDCommerceComRepository\DDDCommerceComRepository.Infra\bin\Debug\net8.0\DDDCommerceComRepository.Infra.RedeSocial.deps.json
+C:\Users\Aula\source\repos\DDDCommerceComRepository\DDDCommerceComRepository.Infra\bin\Debug\net8.0\DDDCommerceComRepository.Infra.RedeSocial.runtimeconfig.json
+C:\Users\Aula\source\repos\DDDCommerceComRepository\DDDCommerceComRepository.Infra\bin\Debug\net8.0\DDDCommerceComRepository.Infra.RedeSocial.dll
+C:\Users\Aula\source\repos\DDDCommerceComRepository\DDDCommerceComRepository.Infra\bin\Debug\net8.0\DDDCommerceComRepository.Infra.RedeSocial.pdb
+C:\Users\Aula\source\repos\DDDCommerceComRepository\DDDCommerceComRepository.Infra\bin\Debug\net8.0\DDDCommerceComRepository.Domain.RedeSocial.dll
+C:\Users\Aula\source\repos\DDDCommerceComRepository\DDDCommerceComRepository.Infra\bin\Debug\net8.0\DDDCommerceComRepository.Domain.RedeSocial.pdb
+C:\Users\Aula\source\repos\DDDCommerceComRepository\DDDCommerceComRepository.Infra\obj\Debug\net8.0\DDDCommerceComRepository.Infra.RedeSocial.csproj.AssemblyReference.cache
+C:\Users\Aula\source\repos\DDDCommerceComRepository\DDDCommerceComRepository.Infra\obj\Debug\net8.0\DDDCommerceComRepository.Infra.RedeSocial.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aula\source\repos\DDDCommerceComRepository\DDDCommerceComRepository.Infra\obj\Debug\net8.0\DDDCommerceComRepository.Infra.RedeSocial.AssemblyInfoInputs.cache
+C:\Users\Aula\source\repos\DDDCommerceComRepository\DDDCommerceComRepository.Infra\obj\Debug\net8.0\DDDCommerceComRepository.Infra.RedeSocial.AssemblyInfo.cs
+C:\Users\Aula\source\repos\DDDCommerceComRepository\DDDCommerceComRepository.Infra\obj\Debug\net8.0\DDDCommerceComRepository.Infra.RedeSocial.csproj.CoreCompileInputs.cache
+C:\Users\Aula\source\repos\DDDCommerceComRepository\DDDCommerceComRepository.Infra\obj\Debug\net8.0\DDDComme.E16A5AAE.Up2Date
+C:\Users\Aula\source\repos\DDDCommerceComRepository\DDDCommerceComRepository.Infra\obj\Debug\net8.0\DDDCommerceComRepository.Infra.RedeSocial.dll
+C:\Users\Aula\source\repos\DDDCommerceComRepository\DDDCommerceComRepository.Infra\obj\Debug\net8.0\refint\DDDCommerceComRepository.Infra.RedeSocial.dll
+C:\Users\Aula\source\repos\DDDCommerceComRepository\DDDCommerceComRepository.Infra\obj\Debug\net8.0\DDDCommerceComRepository.Infra.RedeSocial.pdb
+C:\Users\Aula\source\repos\DDDCommerceComRepository\DDDCommerceComRepository.Infra\obj\Debug\net8.0\DDDCommerceComRepository.Infra.RedeSocial.genruntimeconfig.cache
+C:\Users\Aula\source\repos\DDDCommerceComRepository\DDDCommerceComRepository.Infra\obj\Debug\net8.0\ref\DDDCommerceComRepository.Infra.RedeSocial.dll

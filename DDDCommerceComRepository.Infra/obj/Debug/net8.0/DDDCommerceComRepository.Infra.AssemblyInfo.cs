@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DDDCommerceComRepository.Infra")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b618fbd449ca74b400082d8f524092b29679871d")]
 [assembly: System.Reflection.AssemblyProductAttribute("DDDCommerceComRepository.Infra")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DDDCommerceComRepository.Infra")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

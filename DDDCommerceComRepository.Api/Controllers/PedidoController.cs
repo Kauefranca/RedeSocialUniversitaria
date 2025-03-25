@@ -1,6 +1,6 @@
 ﻿using DDDCommerceComRepository.Domain;
 using DDDCommerceComRepository.Infra;
-using DDDCommerceComRepository.Infra.Interfaces;
+using DDDCommerceComRepository.Infra.RedeSocial.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 

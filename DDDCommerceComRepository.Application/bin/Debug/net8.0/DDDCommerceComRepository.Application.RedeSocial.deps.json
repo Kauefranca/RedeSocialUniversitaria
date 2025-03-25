@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "DDDCommerceComRepository.Application.RedeSocial/1.0.0": {
+        "runtime": {
+          "DDDCommerceComRepository.Application.RedeSocial.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DDDCommerceComRepository.Application.RedeSocial/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

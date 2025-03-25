@@ -1,5 +1,5 @@
 ﻿using DDDCommerceComRepository.Domain;
-using DDDCommerceComRepository.Infra.Interfaces;
+using DDDCommerceComRepository.Infra.RedeSocial.Interfaces;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DDDCommerceComRepository.Infra.Repositories
+namespace DDDCommerceComRepository.Infra.RedeSocial.Repositories
 {
     public class PedidoRepository : IPedidoRepository
     {
@@ -23,6 +23,12 @@ namespace DDDCommerceComRepository.Infra.Repositories
             if (pedido == null) return false;
             sqlContext.Pedidos.Add(pedido);
             sqlContext.SaveChanges();
+            return true;
+        }
+
+        public bool DeleteAll()
+        {
+            //sqlContext.Pedidos.Remove();
             return true;
         }
 

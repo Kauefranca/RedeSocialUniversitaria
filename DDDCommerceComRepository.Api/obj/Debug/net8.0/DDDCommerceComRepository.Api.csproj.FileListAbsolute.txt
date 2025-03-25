@@ -88,3 +88,4 @@ C:\Users\Aula\source\repos\DDDCommerceComRepository\DDDCommerceComRepository.Api
 C:\Users\Aula\source\repos\DDDCommerceComRepository\DDDCommerceComRepository.Api\obj\Debug\net8.0\DDDCommerceComRepository.Api.pdb
 C:\Users\Aula\source\repos\DDDCommerceComRepository\DDDCommerceComRepository.Api\obj\Debug\net8.0\DDDCommerceComRepository.Api.genruntimeconfig.cache
 C:\Users\Aula\source\repos\DDDCommerceComRepository\DDDCommerceComRepository.Api\obj\Debug\net8.0\ref\DDDCommerceComRepository.Api.dll
+C:\Users\Aula\source\repos\DDDCommerceComRepository\DDDCommerceComRepository.Api\obj\Debug\net8.0\DDDCommerceComRepository.Api.sourcelink.json

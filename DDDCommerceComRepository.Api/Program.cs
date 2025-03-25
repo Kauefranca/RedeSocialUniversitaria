@@ -1,7 +1,7 @@
 
 using DDDCommerceComRepository.Infra;
-using DDDCommerceComRepository.Infra.Interfaces;
-using DDDCommerceComRepository.Infra.Repositories;
+using DDDCommerceComRepository.Infra.RedeSocial.Interfaces;
+using DDDCommerceComRepository.Infra.RedeSocial.Repositories;
 using Microsoft.Extensions.DependencyInjection.Extensions;
 
 namespace DDDCommerceComRepository.Api

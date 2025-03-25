@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DDDCommerceComRepository.Infra.Interfaces
+namespace DDDCommerceComRepository.Infra.RedeSocial.Interfaces
 {
     public interface IPedidoRepository
     {
@@ -14,5 +14,8 @@ namespace DDDCommerceComRepository.Infra.Interfaces
         List<Pedido> GetAll();
         void UpdatePedido(int id, Pedido pedido); 
         bool DeletePedido(int id);
+
+        bool DeleteAll();
+
     }
 }
