@@ -1,29 +1,21 @@
-﻿namespace DDDCommerceComRepository.Domain.RedeSocial.Entidades
+namespace DDDCommerceComRepository.Domain.RedeSocial.Entidades
 {
     public class Usuario
     {
-        public int Id { get; set; }
-        public string Nome { get; set; }
-        public string Email { get; set; }
-        public string Curso { get; set; }
-        public List<Usuario> Seguidores { get; set; }
+        public Guid Id { get; private set; }
+        public string Nome { get; private set; }
+        public string Email { get; private set; }
+        public string Curso { get; private set; }
 
-        public Usuario()
-        {
-            Seguidores = new List<Usuario>();
-        }
+        public List<Usuario> Seguidores { get; private set; } = new();
+        public List<Postagem> Curtidas { get; set; } // Lista de postagens que o usuário curtiu
 
-        public void Seguir(Usuario usuario)
+        public Usuario(string nome, string email, string curso)
         {
-            if (!Seguidores.Contains(usuario))
-            {
-                Seguidores.Add(usuario);
-            }
-        }
-
-        public void DeixarDeSeguir(Usuario usuario)
-        {
-            Seguidores.Remove(usuario);
+            Id = Guid.NewGuid();
+            Nome = nome;
+            Email = email;
+            Curso = curso;
         }
     }
 }

@@ -13,8 +13,9 @@ namespace DDDCommerceComRepository.Api
             var builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
-            //builder.Services.AddScoped<SqlContext, SqlContext>();
+            builder.Services.AddDbContext<SqlContext>();
             builder.Services.AddScoped<IUsuarioRepository, UsuarioRepository>();
+
 
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

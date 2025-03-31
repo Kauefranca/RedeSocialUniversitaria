@@ -1,67 +1,81 @@
-﻿using DDDCommerceComRepository.Domain.RedeSocial.Entidades;
+using DDDCommerceComRepository.Domain.RedeSocial.Entidades;
 using DDDCommerceComRepository.Infra.RedeSocial.Interfaces;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace DDDCommerceComRepository.Infra.RedeSocial.Repositories
 {
+
+
     public class UsuarioRepository : IUsuarioRepository
     {
-        private readonly SqlContext sqlContext;
+        private readonly SqlContext _context;
 
-        public UsuarioRepository()
+        public UsuarioRepository(SqlContext context)
         {
-            sqlContext = new SqlContext();
+            _context = context;
         }
 
-        private List<Usuario> usuarios = new List<Usuario>();
-
-        public Usuario ObterPorId(int id)
+        public async Task<Usuario> ObterPorIdAsync(Guid id)
         {
-            return usuarios.FirstOrDefault(u => u.Id == id);
+            return await _context.Usuarios
+                .Include(u => u.Seguidores)
+                .FirstOrDefaultAsync(u => u.Id == id);
         }
 
-        public List<Usuario> ObterTodos()
+        public async Task<IEnumerable<Usuario>> ObterTodosAsync()
         {
-            return usuarios;
+            return await _context.Usuarios.ToListAsync();
         }
 
-        public void Adicionar(Usuario usuario)
+        public async Task AdicionarAsync(Usuario usuario)
         {
-            usuarios.Add(usuario);
+            await _context.Usuarios.AddAsync(usuario);
+            await _context.SaveChangesAsync();
         }
 
-        public void Atualizar(Usuario usuario)
+        public async Task AtualizarAsync(Usuario usuario)
         {
-            var usuarioExistente = usuarios.FirstOrDefault(u => u.Id == usuario.Id);
-            if (usuarioExistente != null)
-            {
-                usuarios.Remove(usuarioExistente);
-                usuarios.Add(usuario);
-            }
+            _context.Usuarios.Update(usuario);
+            await _context.SaveChangesAsync();
         }
 
-        public void Remover(int id)
+        public async Task RemoverAsync(Guid id)
         {
-            var usuario = usuarios.FirstOrDefault(u => u.Id == id);
+            var usuario = await ObterPorIdAsync(id);
             if (usuario != null)
             {
-                usuarios.Remove(usuario);
+                _context.Usuarios.Remove(usuario);
+                await _context.SaveChangesAsync();
             }
         }
 
-        public List<Usuario> ObterSeguidores(int idUsuario)
+        public async Task SeguirUsuarioAsync(Guid usuarioId, Guid seguidoId)
         {
-            var usuario = usuarios.FirstOrDefault(u => u.Id == idUsuario);
-            if (usuario != null)
+            var usuario = await ObterPorIdAsync(usuarioId);
+            var seguido = await ObterPorIdAsync(seguidoId);
+
+            if (usuario != null && seguido != null && !usuario.Seguidores.Contains(seguido))
             {
-                return usuario.Seguidores;
+                usuario.Seguidores.Add(seguido);
+                await _context.SaveChangesAsync();
             }
-            return new List<Usuario>();
+        }
+
+        public async Task PararDeSeguirAsync(Guid usuarioId, Guid seguidoId)
+        {
+            var usuario = await ObterPorIdAsync(usuarioId);
+            var seguido = await ObterPorIdAsync(seguidoId);
+
+            if (usuario != null && seguido != null && usuario.Seguidores.Contains(seguido))
+            {
+                usuario.Seguidores.Remove(seguido);
+                await _context.SaveChangesAsync();
+            }
         }
     }
+
 }

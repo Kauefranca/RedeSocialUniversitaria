@@ -21,3 +21,15 @@ C:\Users\Aula\Source\Repos\RedeSocialUniversitaria\DDDCommerceComRepository.Doma
 C:\Users\Aula\Source\Repos\RedeSocialUniversitaria\DDDCommerceComRepository.Domain\bin\Debug\net8.0\DDDCommerceComRepository.Domain.RedeSocial.dll
 C:\Users\Aula\Source\Repos\RedeSocialUniversitaria\DDDCommerceComRepository.Domain\bin\Debug\net8.0\DDDCommerceComRepository.Domain.RedeSocial.pdb
 C:\Users\Aula\Source\Repos\RedeSocialUniversitaria\DDDCommerceComRepository.Domain\obj\Debug\net8.0\ref\DDDCommerceComRepository.Domain.RedeSocial.dll
+C:\Users\fpnav\Source\Repos\RedeSocialUniversitaria\DDDCommerceComRepository.Domain\bin\Debug\net8.0\DDDCommerceComRepository.Domain.RedeSocial.deps.json
+C:\Users\fpnav\Source\Repos\RedeSocialUniversitaria\DDDCommerceComRepository.Domain\bin\Debug\net8.0\DDDCommerceComRepository.Domain.RedeSocial.dll
+C:\Users\fpnav\Source\Repos\RedeSocialUniversitaria\DDDCommerceComRepository.Domain\bin\Debug\net8.0\DDDCommerceComRepository.Domain.RedeSocial.pdb
+C:\Users\fpnav\Source\Repos\RedeSocialUniversitaria\DDDCommerceComRepository.Domain\obj\Debug\net8.0\DDDCommerceComRepository.Domain.RedeSocial.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fpnav\Source\Repos\RedeSocialUniversitaria\DDDCommerceComRepository.Domain\obj\Debug\net8.0\DDDCommerceComRepository.Domain.RedeSocial.AssemblyInfoInputs.cache
+C:\Users\fpnav\Source\Repos\RedeSocialUniversitaria\DDDCommerceComRepository.Domain\obj\Debug\net8.0\DDDCommerceComRepository.Domain.RedeSocial.AssemblyInfo.cs
+C:\Users\fpnav\Source\Repos\RedeSocialUniversitaria\DDDCommerceComRepository.Domain\obj\Debug\net8.0\DDDCommerceComRepository.Domain.RedeSocial.csproj.CoreCompileInputs.cache
+C:\Users\fpnav\Source\Repos\RedeSocialUniversitaria\DDDCommerceComRepository.Domain\obj\Debug\net8.0\DDDCommerceComRepository.Domain.RedeSocial.sourcelink.json
+C:\Users\fpnav\Source\Repos\RedeSocialUniversitaria\DDDCommerceComRepository.Domain\obj\Debug\net8.0\DDDCommerceComRepository.Domain.RedeSocial.dll
+C:\Users\fpnav\Source\Repos\RedeSocialUniversitaria\DDDCommerceComRepository.Domain\obj\Debug\net8.0\refint\DDDCommerceComRepository.Domain.RedeSocial.dll
+C:\Users\fpnav\Source\Repos\RedeSocialUniversitaria\DDDCommerceComRepository.Domain\obj\Debug\net8.0\DDDCommerceComRepository.Domain.RedeSocial.pdb
+C:\Users\fpnav\Source\Repos\RedeSocialUniversitaria\DDDCommerceComRepository.Domain\obj\Debug\net8.0\ref\DDDCommerceComRepository.Domain.RedeSocial.dll

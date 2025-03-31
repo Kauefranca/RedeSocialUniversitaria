@@ -1,20 +1,21 @@
-﻿using DDDCommerceComRepository.Domain.RedeSocial.Entidades;
+using DDDCommerceComRepository.Domain.RedeSocial.Entidades;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace DDDCommerceComRepository.Infra.RedeSocial.Interfaces
 {
+
+
     public interface IUsuarioRepository
     {
-        Usuario ObterPorId(int id);
-        List<Usuario> ObterTodos();
-        void Adicionar(Usuario usuario);
-        void Atualizar(Usuario usuario);
-        void Remover(int id);
-        List<Usuario> ObterSeguidores(int idUsuario);
-
+        Task<Usuario> ObterPorIdAsync(Guid id);
+        Task<IEnumerable<Usuario>> ObterTodosAsync();
+        Task AdicionarAsync(Usuario usuario);
+        Task AtualizarAsync(Usuario usuario);
+        Task RemoverAsync(Guid id);
+        Task SeguirUsuarioAsync(Guid usuarioId, Guid seguidoId);
+        Task PararDeSeguirAsync(Guid usuarioId, Guid seguidoId);
     }
+
 }

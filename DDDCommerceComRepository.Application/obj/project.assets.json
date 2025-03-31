@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Aula\\.nuget\\packages\\": {}
+    "C:\\Users\\fpnav\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Aula\\Source\\Repos\\RedeSocialUniversitaria\\DDDCommerceComRepository.Application\\DDDCommerceComRepository.Application.RedeSocial.csproj",
+      "projectUniqueName": "C:\\Users\\fpnav\\Source\\Repos\\RedeSocialUniversitaria\\DDDCommerceComRepository.Application\\DDDCommerceComRepository.Application.RedeSocial.csproj",
       "projectName": "DDDCommerceComRepository.Application.RedeSocial",
-      "projectPath": "C:\\Users\\Aula\\Source\\Repos\\RedeSocialUniversitaria\\DDDCommerceComRepository.Application\\DDDCommerceComRepository.Application.RedeSocial.csproj",
-      "packagesPath": "C:\\Users\\Aula\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Aula\\Source\\Repos\\RedeSocialUniversitaria\\DDDCommerceComRepository.Application\\obj\\",
+      "projectPath": "C:\\Users\\fpnav\\Source\\Repos\\RedeSocialUniversitaria\\DDDCommerceComRepository.Application\\DDDCommerceComRepository.Application.RedeSocial.csproj",
+      "packagesPath": "C:\\Users\\fpnav\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\fpnav\\Source\\Repos\\RedeSocialUniversitaria\\DDDCommerceComRepository.Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Aula\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\fpnav\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -40,6 +40,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -61,7 +66,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

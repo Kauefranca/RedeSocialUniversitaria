@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,30 +9,20 @@ namespace DDDCommerceComRepository.Domain.RedeSocial.Entidades
 
     public class Evento
     {
-        public int Id { get; set; }
-        public string Nome { get; set; }
-        public string Local { get; set; }
-        public string Descricao { get; set; }
-        public DateTime DataHora { get; set; }
-        public bool RequerInscricao { get; set; }
-        public List<Usuario> Inscritos { get; set; }
+        public Guid Id { get; private set; }
+        public string Nome { get; private set; }
+        public string Local { get; private set; }
+        public string Descricao { get; private set; }
+        public DateTime DataHora { get; private set; }
+        public List<Usuario> Participantes { get; private set; } = new();
 
-        public Evento()
+        public Evento(string nome, string local, string descricao, DateTime dataHora)
         {
-            Inscritos = new List<Usuario>();
-        }
-
-        public void Inscrever(Usuario usuario)
-        {
-            if (RequerInscricao && !Inscritos.Contains(usuario))
-            {
-                Inscritos.Add(usuario);
-            }
-        }
-
-        public void CancelarInscricao(Usuario usuario)
-        {
-            Inscritos.Remove(usuario);
+            Id = Guid.NewGuid();
+            Nome = nome;
+            Local = local;
+            Descricao = descricao;
+            DataHora = dataHora;
         }
     }
 }
