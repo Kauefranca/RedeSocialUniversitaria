@@ -15,6 +15,7 @@ namespace DDDCommerceComRepository.Api
             // Add services to the container.
             builder.Services.AddDbContext<SqlContext>();
             builder.Services.AddScoped<IUsuarioRepository, UsuarioRepository>();
+            builder.Services.AddScoped<IPostagemRepository, PostagemRepository>();
 
 
             builder.Services.AddControllers();

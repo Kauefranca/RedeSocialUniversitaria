@@ -3309,24 +3309,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Aula\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\fpnav\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Aula\\Source\\Repos\\RedeSocialUniversitaria\\DDDCommerceComRepository.Api\\DDDCommerceComRepository.Api.RedeSocial.csproj",
+      "projectUniqueName": "C:\\Users\\fpnav\\source\\repos\\RedeSocialUniversitaria\\DDDCommerceComRepository.Api\\DDDCommerceComRepository.Api.RedeSocial.csproj",
       "projectName": "DDDCommerceComRepository.Api.RedeSocial",
-      "projectPath": "C:\\Users\\Aula\\Source\\Repos\\RedeSocialUniversitaria\\DDDCommerceComRepository.Api\\DDDCommerceComRepository.Api.RedeSocial.csproj",
-      "packagesPath": "C:\\Users\\Aula\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Aula\\Source\\Repos\\RedeSocialUniversitaria\\DDDCommerceComRepository.Api\\obj\\",
+      "projectPath": "C:\\Users\\fpnav\\source\\repos\\RedeSocialUniversitaria\\DDDCommerceComRepository.Api\\DDDCommerceComRepository.Api.RedeSocial.csproj",
+      "packagesPath": "C:\\Users\\fpnav\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\fpnav\\source\\repos\\RedeSocialUniversitaria\\DDDCommerceComRepository.Api\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Aula\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\fpnav\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3340,11 +3335,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Aula\\Source\\Repos\\RedeSocialUniversitaria\\DDDCommerceComRepository.Domain\\DDDCommerceComRepository.Domain.RedeSocial.csproj": {
-              "projectPath": "C:\\Users\\Aula\\Source\\Repos\\RedeSocialUniversitaria\\DDDCommerceComRepository.Domain\\DDDCommerceComRepository.Domain.RedeSocial.csproj"
+            "C:\\Users\\fpnav\\source\\repos\\RedeSocialUniversitaria\\DDDCommerceComRepository.Domain\\DDDCommerceComRepository.Domain.RedeSocial.csproj": {
+              "projectPath": "C:\\Users\\fpnav\\source\\repos\\RedeSocialUniversitaria\\DDDCommerceComRepository.Domain\\DDDCommerceComRepository.Domain.RedeSocial.csproj"
             },
-            "C:\\Users\\Aula\\Source\\Repos\\RedeSocialUniversitaria\\DDDCommerceComRepository.Infra\\DDDCommerceComRepository.Infra.RedeSocial.csproj": {
-              "projectPath": "C:\\Users\\Aula\\Source\\Repos\\RedeSocialUniversitaria\\DDDCommerceComRepository.Infra\\DDDCommerceComRepository.Infra.RedeSocial.csproj"
+            "C:\\Users\\fpnav\\source\\repos\\RedeSocialUniversitaria\\DDDCommerceComRepository.Infra\\DDDCommerceComRepository.Infra.RedeSocial.csproj": {
+              "projectPath": "C:\\Users\\fpnav\\source\\repos\\RedeSocialUniversitaria\\DDDCommerceComRepository.Infra\\DDDCommerceComRepository.Infra.RedeSocial.csproj"
             }
           }
         }
