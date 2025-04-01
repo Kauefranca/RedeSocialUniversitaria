@@ -16,7 +16,9 @@ namespace DDDCommerceComRepository.Domain.RedeSocial.Entidades
         public Usuario Autor { get; set; }
 
         // Curtidas podem ser uma lista de Usuários sem relacionamento com cascata
-        public List<Usuario> Curtidas { get; set; }
+        public List<Usuario>? Curtidas { get; set; }
+
+        public List<String> Comentarios { get; set; }
     }
 
 }

@@ -32,7 +32,6 @@ C:\Users\Aula\Source\Repos\RedeSocialUniversitaria\DDDCommerceComRepository.Infr
 C:\Users\Aula\Source\Repos\RedeSocialUniversitaria\DDDCommerceComRepository.Infra\bin\Debug\net8.0\DDDCommerceComRepository.Domain.RedeSocial.pdb
 C:\Users\Aula\Source\Repos\RedeSocialUniversitaria\DDDCommerceComRepository.Infra\obj\Debug\net8.0\DDDCommerceComRepository.Infra.RedeSocial.genruntimeconfig.cache
 C:\Users\Aula\Source\Repos\RedeSocialUniversitaria\DDDCommerceComRepository.Infra\obj\Debug\net8.0\ref\DDDCommerceComRepository.Infra.RedeSocial.dll
-C:\Users\Aula\Source\Repos\RedeSocialUniversitaria\DDDCommerceComRepository.Infra\obj\Debug\net8.0\DDDCommerceComRepository.Infra.RedeSocial.csproj.CopyComplete
 C:\Users\fpnav\Source\Repos\RedeSocialUniversitaria\DDDCommerceComRepository.Infra\obj\Debug\net8.0\DDDCommerceComRepository.Infra.RedeSocial.csproj.AssemblyReference.cache
 C:\Users\fpnav\Source\Repos\RedeSocialUniversitaria\DDDCommerceComRepository.Infra\obj\Debug\net8.0\DDDCommerceComRepository.Infra.RedeSocial.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\fpnav\Source\Repos\RedeSocialUniversitaria\DDDCommerceComRepository.Infra\obj\Debug\net8.0\DDDCommerceComRepository.Infra.RedeSocial.AssemblyInfoInputs.cache
@@ -51,3 +50,4 @@ C:\Users\fpnav\Source\Repos\RedeSocialUniversitaria\DDDCommerceComRepository.Inf
 C:\Users\fpnav\Source\Repos\RedeSocialUniversitaria\DDDCommerceComRepository.Infra\obj\Debug\net8.0\DDDComme.E16A5AAE.Up2Date
 C:\Users\fpnav\Source\Repos\RedeSocialUniversitaria\DDDCommerceComRepository.Infra\obj\Debug\net8.0\DDDCommerceComRepository.Infra.RedeSocial.genruntimeconfig.cache
 C:\Users\fpnav\Source\Repos\RedeSocialUniversitaria\DDDCommerceComRepository.Infra\obj\Debug\net8.0\ref\DDDCommerceComRepository.Infra.RedeSocial.dll
+C:\Users\Aula\Source\Repos\RedeSocialUniversitaria\DDDCommerceComRepository.Infra\obj\Debug\net8.0\DDDComme.E16A5AAE.Up2Date

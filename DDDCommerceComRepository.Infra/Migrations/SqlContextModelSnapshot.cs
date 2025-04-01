@@ -57,6 +57,10 @@ namespace DDDCommerceComRepository.Infra.RedeSocial.Migrations
                     b.Property<Guid>("AutorId")
                         .HasColumnType("uniqueidentifier");
 
+                    b.PrimitiveCollection<string>("Comentarios")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Conteudo")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -94,19 +98,19 @@ namespace DDDCommerceComRepository.Infra.RedeSocial.Migrations
                     b.ToTable("Usuarios");
                 });
 
-            modelBuilder.Entity("EventoParticipantes", b =>
+            modelBuilder.Entity("EventoUsuario", b =>
                 {
                     b.Property<Guid>("EventoId")
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<Guid>("UsuarioId")
+                    b.Property<Guid>("ParticipantesId")
                         .HasColumnType("uniqueidentifier");
 
-                    b.HasKey("EventoId", "UsuarioId");
+                    b.HasKey("EventoId", "ParticipantesId");
 
-                    b.HasIndex("UsuarioId");
+                    b.HasIndex("ParticipantesId");
 
-                    b.ToTable("EventoParticipantes");
+                    b.ToTable("EventoUsuario");
                 });
 
             modelBuilder.Entity("PostagemCurtidas", b =>
@@ -124,19 +128,19 @@ namespace DDDCommerceComRepository.Infra.RedeSocial.Migrations
                     b.ToTable("PostagemCurtidas");
                 });
 
-            modelBuilder.Entity("UsuarioSeguidores", b =>
+            modelBuilder.Entity("UsuarioUsuario", b =>
                 {
-                    b.Property<Guid>("SeguidoId")
+                    b.Property<Guid>("SeguidoresId")
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<Guid>("SeguidorId")
+                    b.Property<Guid>("UsuarioId")
                         .HasColumnType("uniqueidentifier");
 
-                    b.HasKey("SeguidoId", "SeguidorId");
+                    b.HasKey("SeguidoresId", "UsuarioId");
 
-                    b.HasIndex("SeguidorId");
+                    b.HasIndex("UsuarioId");
 
-                    b.ToTable("UsuarioSeguidores");
+                    b.ToTable("UsuarioUsuario");
                 });
 
             modelBuilder.Entity("DDDCommerceComRepository.Domain.RedeSocial.Entidades.Postagem", b =>
@@ -150,7 +154,7 @@ namespace DDDCommerceComRepository.Infra.RedeSocial.Migrations
                     b.Navigation("Autor");
                 });
 
-            modelBuilder.Entity("EventoParticipantes", b =>
+            modelBuilder.Entity("EventoUsuario", b =>
                 {
                     b.HasOne("DDDCommerceComRepository.Domain.RedeSocial.Entidades.Evento", null)
                         .WithMany()
@@ -160,7 +164,7 @@ namespace DDDCommerceComRepository.Infra.RedeSocial.Migrations
 
                     b.HasOne("DDDCommerceComRepository.Domain.RedeSocial.Entidades.Usuario", null)
                         .WithMany()
-                        .HasForeignKey("UsuarioId")
+                        .HasForeignKey("ParticipantesId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
                 });
@@ -180,18 +184,18 @@ namespace DDDCommerceComRepository.Infra.RedeSocial.Migrations
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("UsuarioSeguidores", b =>
+            modelBuilder.Entity("UsuarioUsuario", b =>
                 {
                     b.HasOne("DDDCommerceComRepository.Domain.RedeSocial.Entidades.Usuario", null)
                         .WithMany()
-                        .HasForeignKey("SeguidoId")
-                        .OnDelete(DeleteBehavior.ClientCascade)
+                        .HasForeignKey("SeguidoresId")
+                        .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.HasOne("DDDCommerceComRepository.Domain.RedeSocial.Entidades.Usuario", null)
                         .WithMany()
-                        .HasForeignKey("SeguidorId")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .HasForeignKey("UsuarioId")
+                        .OnDelete(DeleteBehavior.ClientCascade)
                         .IsRequired();
                 });
 #pragma warning restore 612, 618

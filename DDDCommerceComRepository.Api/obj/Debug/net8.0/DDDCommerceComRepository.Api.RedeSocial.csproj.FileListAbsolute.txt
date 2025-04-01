@@ -178,7 +178,6 @@ C:\Users\Aula\Source\Repos\RedeSocialUniversitaria\DDDCommerceComRepository.Api\
 C:\Users\Aula\Source\Repos\RedeSocialUniversitaria\DDDCommerceComRepository.Api\obj\Debug\net8.0\scopedcss\bundle\DDDCommerceComRepository.Api.RedeSocial.styles.css
 C:\Users\Aula\Source\Repos\RedeSocialUniversitaria\DDDCommerceComRepository.Api\obj\Debug\net8.0\DDDCommerceComRepository.Api.RedeSocial.genruntimeconfig.cache
 C:\Users\Aula\Source\Repos\RedeSocialUniversitaria\DDDCommerceComRepository.Api\obj\Debug\net8.0\ref\DDDCommerceComRepository.Api.RedeSocial.dll
-C:\Users\Aula\Source\Repos\RedeSocialUniversitaria\DDDCommerceComRepository.Api\obj\Debug\net8.0\DDDCommerceComRepository.Api.RedeSocial.csproj.CopyComplete
 C:\Users\fpnav\Source\Repos\RedeSocialUniversitaria\DDDCommerceComRepository.Api\obj\Debug\net8.0\DDDCommerceComRepository.Api.RedeSocial.csproj.AssemblyReference.cache
 C:\Users\fpnav\Source\Repos\RedeSocialUniversitaria\DDDCommerceComRepository.Api\obj\Debug\net8.0\DDDCommerceComRepository.Api.RedeSocial.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\fpnav\Source\Repos\RedeSocialUniversitaria\DDDCommerceComRepository.Api\obj\Debug\net8.0\DDDCommerceComRepository.Api.RedeSocial.AssemblyInfoInputs.cache
@@ -271,3 +270,5 @@ C:\Users\fpnav\Source\Repos\RedeSocialUniversitaria\DDDCommerceComRepository.Api
 C:\Users\fpnav\Source\Repos\RedeSocialUniversitaria\DDDCommerceComRepository.Api\obj\Debug\net8.0\DDDCommerceComRepository.Api.RedeSocial.genruntimeconfig.cache
 C:\Users\fpnav\Source\Repos\RedeSocialUniversitaria\DDDCommerceComRepository.Api\obj\Debug\net8.0\ref\DDDCommerceComRepository.Api.RedeSocial.dll
 C:\Users\fpnav\Source\Repos\RedeSocialUniversitaria\DDDCommerceComRepository.Api\bin\Debug\net8.0\Microsoft.Extensions.Configuration.dll
+C:\Users\Aula\Source\Repos\RedeSocialUniversitaria\DDDCommerceComRepository.Api\bin\Debug\net8.0\Microsoft.Extensions.Configuration.dll
+C:\Users\Aula\Source\Repos\RedeSocialUniversitaria\DDDCommerceComRepository.Api\obj\Debug\net8.0\DDDComme.EB180427.Up2Date
