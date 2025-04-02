@@ -12,10 +12,11 @@ namespace DDDCommerceComRepository.Api
         {
             var builder = WebApplication.CreateBuilder(args);
 
-            // Add services to the container.
+            // Add services to the container. DI (Dependency Injection)
             builder.Services.AddDbContext<SqlContext>();
             builder.Services.AddScoped<IUsuarioRepository, UsuarioRepository>();
             builder.Services.AddScoped<IPostagemRepository, PostagemRepository>();
+            builder.Services.AddScoped<IEventoRepository, EventoRepository>();
 
 
             builder.Services.AddControllers();
