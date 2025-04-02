@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DDDCommerceComRepository.Infra.RedeSocial.Migrations
 {
     [DbContext(typeof(SqlContext))]
-    [Migration("20250401000716_init")]
-    partial class init
+    [Migration("20250402002718_initial")]
+    partial class initial
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

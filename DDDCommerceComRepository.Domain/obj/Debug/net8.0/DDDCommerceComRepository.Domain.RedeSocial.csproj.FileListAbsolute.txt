@@ -33,3 +33,4 @@ C:\Users\fpnav\Source\Repos\RedeSocialUniversitaria\DDDCommerceComRepository.Dom
 C:\Users\fpnav\Source\Repos\RedeSocialUniversitaria\DDDCommerceComRepository.Domain\obj\Debug\net8.0\refint\DDDCommerceComRepository.Domain.RedeSocial.dll
 C:\Users\fpnav\Source\Repos\RedeSocialUniversitaria\DDDCommerceComRepository.Domain\obj\Debug\net8.0\DDDCommerceComRepository.Domain.RedeSocial.pdb
 C:\Users\fpnav\Source\Repos\RedeSocialUniversitaria\DDDCommerceComRepository.Domain\obj\Debug\net8.0\ref\DDDCommerceComRepository.Domain.RedeSocial.dll
+C:\Users\Aula\Source\Repos\RedeSocialUniversitaria\DDDCommerceComRepository.Domain\obj\Debug\net8.0\DDDCommerceComRepository.Domain.RedeSocial.csproj.AssemblyReference.cache

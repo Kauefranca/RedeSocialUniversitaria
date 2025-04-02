@@ -50,4 +50,4 @@ C:\Users\fpnav\Source\Repos\RedeSocialUniversitaria\DDDCommerceComRepository.Inf
 C:\Users\fpnav\Source\Repos\RedeSocialUniversitaria\DDDCommerceComRepository.Infra\obj\Debug\net8.0\DDDComme.E16A5AAE.Up2Date
 C:\Users\fpnav\Source\Repos\RedeSocialUniversitaria\DDDCommerceComRepository.Infra\obj\Debug\net8.0\DDDCommerceComRepository.Infra.RedeSocial.genruntimeconfig.cache
 C:\Users\fpnav\Source\Repos\RedeSocialUniversitaria\DDDCommerceComRepository.Infra\obj\Debug\net8.0\ref\DDDCommerceComRepository.Infra.RedeSocial.dll
-C:\Users\Aula\Source\Repos\RedeSocialUniversitaria\DDDCommerceComRepository.Infra\obj\Debug\net8.0\DDDComme.E16A5AAE.Up2Date
+C:\Users\Aula\Source\Repos\RedeSocialUniversitaria\DDDCommerceComRepository.Infra\obj\Debug\net8.0\DDDCommerceComRepository.Infra.RedeSocial.csproj.CopyComplete

@@ -271,4 +271,10 @@ C:\Users\fpnav\Source\Repos\RedeSocialUniversitaria\DDDCommerceComRepository.Api
 C:\Users\fpnav\Source\Repos\RedeSocialUniversitaria\DDDCommerceComRepository.Api\obj\Debug\net8.0\ref\DDDCommerceComRepository.Api.RedeSocial.dll
 C:\Users\fpnav\Source\Repos\RedeSocialUniversitaria\DDDCommerceComRepository.Api\bin\Debug\net8.0\Microsoft.Extensions.Configuration.dll
 C:\Users\Aula\Source\Repos\RedeSocialUniversitaria\DDDCommerceComRepository.Api\bin\Debug\net8.0\Microsoft.Extensions.Configuration.dll
-C:\Users\Aula\Source\Repos\RedeSocialUniversitaria\DDDCommerceComRepository.Api\obj\Debug\net8.0\DDDComme.EB180427.Up2Date
+C:\Users\Aula\Source\Repos\RedeSocialUniversitaria\DDDCommerceComRepository.Api\obj\Debug\net8.0\DDDCommerceComRepository.Api.RedeSocial.csproj.CopyComplete
+C:\Users\Aula\Source\Repos\RedeSocialUniversitaria\DDDCommerceComRepository.Api\bin\Debug\net8.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\Aula\Source\Repos\RedeSocialUniversitaria\DDDCommerceComRepository.Api\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Aula\Source\Repos\RedeSocialUniversitaria\DDDCommerceComRepository.Api\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+C:\Users\Aula\Source\Repos\RedeSocialUniversitaria\DDDCommerceComRepository.Api\bin\Debug\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\Aula\Source\Repos\RedeSocialUniversitaria\DDDCommerceComRepository.Api\bin\Debug\net8.0\Microsoft.Extensions.ObjectPool.dll
+C:\Users\Aula\Source\Repos\RedeSocialUniversitaria\DDDCommerceComRepository.Api\bin\Debug\net8.0\Newtonsoft.Json.dll
