@@ -1,6 +1,6 @@
 
+using DDDCommerceComRepository.Domain.RedeSocial.Interfaces;
 using DDDCommerceComRepository.Infra;
-using DDDCommerceComRepository.Infra.RedeSocial.Interfaces;
 using DDDCommerceComRepository.Infra.RedeSocial.Repositories;
 using Microsoft.Extensions.DependencyInjection.Extensions;
 
@@ -17,6 +17,7 @@ namespace DDDCommerceComRepository.Api
             builder.Services.AddScoped<IUsuarioRepository, UsuarioRepository>();
             builder.Services.AddScoped<IPostagemRepository, PostagemRepository>();
             builder.Services.AddScoped<IEventoRepository, EventoRepository>();
+
 
 
             builder.Services.AddControllers();

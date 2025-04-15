@@ -1,10 +1,7 @@
 using DDDCommerceComRepository.Domain.RedeSocial.Entidades;
-using DDDCommerceComRepository.Infra.RedeSocial.Interfaces;
+using DDDCommerceComRepository.Domain.RedeSocial.Interfaces;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+
 
 namespace DDDCommerceComRepository.Infra.RedeSocial.Repositories
 {

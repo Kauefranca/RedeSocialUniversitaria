@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace DDDCommerceComRepository.Infra.RedeSocial.Interfaces
+namespace DDDCommerceComRepository.Domain.RedeSocial.Interfaces
 {
 
 

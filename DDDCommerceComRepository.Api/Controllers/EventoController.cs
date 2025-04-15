@@ -1,5 +1,5 @@
 ﻿using DDDCommerceComRepository.Domain.RedeSocial.Entidades;
-using DDDCommerceComRepository.Infra.RedeSocial.Interfaces;
+using DDDCommerceComRepository.Domain.RedeSocial.Interfaces;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 

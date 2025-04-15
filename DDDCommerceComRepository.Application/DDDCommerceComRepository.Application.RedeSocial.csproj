@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\DDDCommerceComRepository.Domain\DDDCommerceComRepository.Domain.RedeSocial.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -1,7 +1,7 @@
 using DDDCommerceComRepository.Domain;
 using DDDCommerceComRepository.Domain.RedeSocial.Entidades;
+using DDDCommerceComRepository.Domain.RedeSocial.Interfaces;
 using DDDCommerceComRepository.Infra;
-using DDDCommerceComRepository.Infra.RedeSocial.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
