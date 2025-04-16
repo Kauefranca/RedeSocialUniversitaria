@@ -11,6 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\DDDCommerceComRepository.Application\DDDCommerceComRepository.Application.RedeSocial.csproj" />
     <ProjectReference Include="..\DDDCommerceComRepository.Domain\DDDCommerceComRepository.Domain.RedeSocial.csproj" />
     <ProjectReference Include="..\DDDCommerceComRepository.Infra\DDDCommerceComRepository.Infra.RedeSocial.csproj" />
   </ItemGroup>

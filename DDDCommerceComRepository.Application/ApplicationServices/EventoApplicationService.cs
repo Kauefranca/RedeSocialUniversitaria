@@ -46,10 +46,5 @@ namespace DDDCommerceComRepository.Application.RedeSocial.ApplicationServices
             return true;
         }
 
-        public bool PodeParticiparEvento(Usuario usuario)
-        {
-            if (usuario == null) return false;
-            return false;
-        }
     }
 }

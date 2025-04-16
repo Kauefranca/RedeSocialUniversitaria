@@ -11,22 +11,28 @@ namespace DDDCommerceComRepository.Domain.RedeSocial.DomainServices
 {
     public class EventoPolicyService
     {
-        //private readonly IBloqueioRepository _bloqueioRepository;
+        private readonly IUsuarioRepository _usuarioRepository;
 
-        //public EventoPolicyService(IBloqueioRepository bloqueioRepository)
-        //{
-        //    _bloqueioRepository = bloqueioRepository;
-        //}
-        
+        public EventoPolicyService(IUsuarioRepository usuarioRepository)
+        {
+            _usuarioRepository = usuarioRepository;
+        }
+
 
         public async Task<bool> PodeParticipar(Usuario usuario, Evento evento)
         {
+            //Regra 1 do Caso de Uso
             if (evento.Participantes.Any(p => p.Id == usuario.Id))
                 return false;
 
+            //Regra 2 do Caso de Uso
             if (evento.Participantes.Count >= 50)
                 return false;
 
+
+            //var user = await _usuarioRepository.ObterPorIdAsync(usuario.Id);
+            if (usuario.Curso != "Computação")
+                return false;
             //foreach (var participante in evento.Participantes)
             //{
             //    var bloqueado = await _bloqueioRepository.ExisteBloqueio(participante.Id, usuario.Id);
