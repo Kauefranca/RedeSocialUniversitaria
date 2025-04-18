@@ -9,9 +9,9 @@ namespace DDDCommerceComRepository.Api.RedeSocial.Controllers
     [ApiController]
     public class ParticipacaoController : ControllerBase
     {
-        private readonly EventoApplicationService _eventoAppService;
+        private readonly EventoService _eventoAppService;
 
-        public ParticipacaoController(EventoApplicationService eventoAppService)
+        public ParticipacaoController(EventoService eventoAppService)
         {
             _eventoAppService = eventoAppService;
         }
@@ -19,7 +19,7 @@ namespace DDDCommerceComRepository.Api.RedeSocial.Controllers
         [HttpPost]
         public ActionResult Participar([FromBody] ParticipacaoDto participacao)
         {
-            var resultado = _eventoAppService.ParticiparDoEvento(participacao.UsuarioId, participacao.EventoId);
+            var resultado = _eventoAppService.ParticiparDoEvento(participacao.UsuarioId, participacao.EventoId).Result;
             if (!resultado)
             {
                 return BadRequest("Erro ao definir uma participação");

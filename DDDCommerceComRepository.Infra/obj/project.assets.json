@@ -5526,19 +5526,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Aula\\.nuget\\packages\\": {}
+    "C:\\Users\\Usuario\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Aula\\Source\\Repos\\RedeSocialUniversitaria2\\DDDCommerceComRepository.Infra\\DDDCommerceComRepository.Infra.RedeSocial.csproj",
+      "projectUniqueName": "C:\\projetos\\RedeSocialUniversitaria\\DDDCommerceComRepository.Infra\\DDDCommerceComRepository.Infra.RedeSocial.csproj",
       "projectName": "DDDCommerceComRepository.Infra.RedeSocial",
-      "projectPath": "C:\\Users\\Aula\\Source\\Repos\\RedeSocialUniversitaria2\\DDDCommerceComRepository.Infra\\DDDCommerceComRepository.Infra.RedeSocial.csproj",
-      "packagesPath": "C:\\Users\\Aula\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Aula\\Source\\Repos\\RedeSocialUniversitaria2\\DDDCommerceComRepository.Infra\\obj\\",
+      "projectPath": "C:\\projetos\\RedeSocialUniversitaria\\DDDCommerceComRepository.Infra\\DDDCommerceComRepository.Infra.RedeSocial.csproj",
+      "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+      "outputPath": "C:\\projetos\\RedeSocialUniversitaria\\DDDCommerceComRepository.Infra\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Aula\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5546,14 +5551,15 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Aula\\Source\\Repos\\RedeSocialUniversitaria2\\DDDCommerceComRepository.Domain\\DDDCommerceComRepository.Domain.RedeSocial.csproj": {
-              "projectPath": "C:\\Users\\Aula\\Source\\Repos\\RedeSocialUniversitaria2\\DDDCommerceComRepository.Domain\\DDDCommerceComRepository.Domain.RedeSocial.csproj"
+            "C:\\projetos\\RedeSocialUniversitaria\\DDDCommerceComRepository.Domain\\DDDCommerceComRepository.Domain.RedeSocial.csproj": {
+              "projectPath": "C:\\projetos\\RedeSocialUniversitaria\\DDDCommerceComRepository.Domain\\DDDCommerceComRepository.Domain.RedeSocial.csproj"
             }
           }
         }
@@ -5562,6 +5568,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -5599,7 +5610,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

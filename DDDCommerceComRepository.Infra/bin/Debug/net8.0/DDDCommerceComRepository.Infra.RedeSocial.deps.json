@@ -1327,7 +1327,10 @@
           "Microsoft.AspNetCore.Mvc.Core": "2.3.0"
         },
         "runtime": {
-          "DDDCommerceComRepository.Domain.RedeSocial.dll": {}
+          "DDDCommerceComRepository.Domain.RedeSocial.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

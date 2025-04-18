@@ -9,13 +9,13 @@ using System.Threading.Tasks;
 
 namespace DDDCommerceComRepository.Application.RedeSocial.ApplicationServices
 {
-    public class EventoApplicationService
+    public class EventoService
     {
         private readonly IEventoRepository _eventoRepository;
         private readonly IUsuarioRepository _usuarioRepository;
         private readonly EventoPolicyService _eventoPolicyService;
 
-        public EventoApplicationService(IEventoRepository eventoRepository,IUsuarioRepository usuarioRepository,
+        public EventoService(IEventoRepository eventoRepository,IUsuarioRepository usuarioRepository,
             EventoPolicyService eventoPolicyService)
         {
             _eventoRepository = eventoRepository;

@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v8.0": {
       "DDDCommerceComRepository.Api.RedeSocial/1.0.0": {
         "dependencies": {
+          "DDDCommerceComRepository.Application.RedeSocial": "1.0.0",
           "DDDCommerceComRepository.Domain.RedeSocial": "1.0.0",
           "DDDCommerceComRepository.Infra.RedeSocial": "1.0.0",
           "Swashbuckle.AspNetCore": "6.4.0"
@@ -1196,12 +1197,26 @@
           "System.Xml.ReaderWriter": "4.0.11"
         }
       },
+      "DDDCommerceComRepository.Application.RedeSocial/1.0.0": {
+        "dependencies": {
+          "DDDCommerceComRepository.Domain.RedeSocial": "1.0.0"
+        },
+        "runtime": {
+          "DDDCommerceComRepository.Application.RedeSocial.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "DDDCommerceComRepository.Domain.RedeSocial/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Mvc.Core": "2.3.0"
         },
         "runtime": {
-          "DDDCommerceComRepository.Domain.RedeSocial.dll": {}
+          "DDDCommerceComRepository.Domain.RedeSocial.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "DDDCommerceComRepository.Infra.RedeSocial/1.0.0": {
@@ -1211,7 +1226,10 @@
           "Microsoft.Extensions.Configuration": "9.0.3"
         },
         "runtime": {
-          "DDDCommerceComRepository.Infra.RedeSocial.dll": {}
+          "DDDCommerceComRepository.Infra.RedeSocial.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }
@@ -2061,6 +2079,11 @@
       "sha512": "sha512-Mk2mKmPi0nWaoiYeotq1dgeNK1fqWh61+EK+w4Wu8SWuTYLzpUnschb59bJtGywaPq7SmTuPf44wrXRwbIrukg==",
       "path": "system.xml.xdocument/4.0.11",
       "hashPath": "system.xml.xdocument.4.0.11.nupkg.sha512"
+    },
+    "DDDCommerceComRepository.Application.RedeSocial/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "DDDCommerceComRepository.Domain.RedeSocial/1.0.0": {
       "type": "project",
